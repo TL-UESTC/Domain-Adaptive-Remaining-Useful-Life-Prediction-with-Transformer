@@ -189,19 +189,5 @@ class N_CMAPSS_TEST(Dataset):
 
 
 if __name__ == "__main__":
-    name="N-CMAPSS/DS07/"
-    lis1 = os.listdir(name+"train/")
-    li1 = [name+"train/"+i for i in lis1 if i[-4:]=='.txt']
-    lis2 = os.listdir(name+"/test/")
-    li2 = [name+"test/"+i for i in lis2 if i[-4:]=='.txt']
-    lis3 = os.listdir(name+"valid/")
-    li3 = [name+"valid/"+i for i in lis3 if i[-4:]=='.txt']
-    s, cnt = 0, 0
-    li = li1+li2+li3
-    for i in li:
-        d = np.loadtxt(i)
-        s += len(d)/2
-        cnt += 1
-
-    print("avg length of subset {} is {:.2f}".format(name, s/cnt))
+    pass
     

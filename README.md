@@ -12,7 +12,7 @@ state-of-the-art results on both source-only RUL prediction and domain adaptive 
 # Environment
 - pytorch==1.10
 # Dataset
-- The `CMAPSS` folder contains processed CMAPSS dataset used in this code.
+- Unzip `CMAPSS.zip` into `CMAPSS` folder, which contains processed CMAPSS dataset used in this code.
 # Usage
 - train on CMAPSS  
 `python train_cmapss.py --source $S --target $T`   

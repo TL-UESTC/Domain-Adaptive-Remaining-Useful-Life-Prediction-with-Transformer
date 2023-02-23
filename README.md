@@ -23,3 +23,15 @@ You can evaluate our best performing models saved in folder `save/final` by runn
 where `$S` is source domain, `$T` is target domain. Domains include "FD001,FD002,FD003,FD004".
 # Results
 ![image](https://user-images.githubusercontent.com/68037940/220871054-2bd6ac31-16ed-4958-bbaa-b87495b6d10c.png)
+# Citation
+```
+@article{li2022domain,
+  title={Domain Adaptive Remaining Useful Life Prediction With Transformer},
+  author={Li, Xinyao and Li, Jingjing and Zuo, Lin and Zhu, Lei and Shen, Heng Tao},
+  journal={IEEE Transactions on Instrumentation and Measurement},
+  volume={71},
+  pages={1--13},
+  year={2022},
+  publisher={IEEE}
+}
+```

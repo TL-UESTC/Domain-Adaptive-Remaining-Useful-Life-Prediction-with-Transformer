@@ -1,3 +1,7 @@
+# Update extracted & processed N-CMAPSS dataset, 6/10/2023
+To promote relevant researches on domain adaptive RUL prediction in the community, we provide the N-CMAPSS dataset used in this paper, 
+with 7 domains readily available. Download <a href="https://drive.google.com/file/d/1p7SuC0vZTls-ZmuNKRVxMgk4PjUp0tfK/view?usp=sharing">here<a>.
+
 # Domain Adaptive Remaining Useful Life Prediction with Transformer
 Pytorch implementation for **Domain Adaptive Remaining Useful Life Prediction with Transformer**, https://doi.org/10.1109/TIM.2022.3200667
 

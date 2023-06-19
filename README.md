@@ -14,7 +14,10 @@ state-of-the-art results on both source-only RUL prediction and domain adaptive 
 ![1677138917679](https://user-images.githubusercontent.com/68037940/220850214-9661b173-4b7e-4ecc-a3ae-f34a9ceb4bca.png)
 
 # Environment
+**This is a strict constraint!**
+
 - pytorch==1.10
+- torchvision==0.11.0
 # Dataset
 - Unzip `CMAPSS.zip` into `CMAPSS` folder, which contains processed CMAPSS dataset used in this code.
 # Usage
